@@ -1,0 +1,13 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+
+    @include mq($mobile) {
+        display: block;
+    }
+}
+
+.footer__item {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}

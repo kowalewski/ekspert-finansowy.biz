@@ -1,46 +1,68 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Navbar from '../components/Navbar'
-import './all.sass'
+import '../styles/index.scss';
 
 const TemplateWrapper = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query HeadingQuery {
-          site {
-            siteMetadata {
-              title,
-              description,
+    <StaticQuery
+        query={graphql`
+            query HeadingQuery {
+                site {
+                    siteMetadata {
+                        title
+                        description
+                    }
+                }
             }
-          }
-        }
-    `}
-    render={data => (
-      <div>
-        <Helmet>
-          <html lang="en" />
-          <title>{data.site.siteMetadata.title}</title>
-          <meta name="description" content={data.site.siteMetadata.description} />
-          
-          <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-	        <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-	        <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-	
-	        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400" />
-	        <meta name="theme-color" content="#fff" />
+        `}
+        render={data => (
+            <div>
+                <Helmet>
+                    <html lang="pl" />
+                    <title>{data.site.siteMetadata.title}</title>
+                    <meta charset="utf-8" />
+                    <meta
+                        name="viewport"
+                        content="width=device-width, initial-scale=1"
+                    />
+                    <meta
+                        name="description"
+                        content={data.site.siteMetadata.description}
+                    />
+                    <meta name="theme-color" content="#fff" />
+                    <meta
+                        name="image"
+                        content="http://ekspert-finansowy.biz/images/bg-large.jpg"
+                    />
+                    <meta
+                        itemprop="name"
+                        content="Ekspert Finansowy - Paweł Kowalewski"
+                    />
+                    <meta
+                        itemprop="description"
+                        content="Jako ekspert finansowy oferuję Państwu profesjonalną pomoc w zakresie finansów i ubezpieczeń. Swoją działalność opieram na pośredniczeniu w udzielaniu wszelkiego rodzaju kredytów, a także leasingów. Kompletuję od Państwa niezbędną dokumentację do procesowania wniosku kredytowego i przeprowadzam Państwa przez cały etap okołokredytowy. Dysponuję ofertą ponad 16 renomowanych banków, co pozwala na dobranie jak najkorzystniejszej oferty do Państwa potrzeb."
+                    />
+                    <meta
+                        itemprop="image"
+                        content="http://ekspert-finansowy.biz/images/bg-large.jpg"
+                    />
+                    <meta property="og:type" content="business.business" />
+                    <meta
+                        property="og:title"
+                        content={data.site.siteMetadata.title}
+                    />
+                    <meta property="og:url" content="/" />
+                    <meta
+                        name="og:image"
+                        content="http://ekspert-finansowy.biz/images/bg-large.jpg"
+                    />
+                    <meta name="og:locale" content="pl_PL" />
+                </Helmet>
+                <div>{children}</div>
+            </div>
+        )}
+    />
+);
 
-	        <meta property="og:type" content="business.business" />
-          <meta property="og:title" content={data.site.siteMetadata.title} />
-          <meta property="og:url" content="/" />
-          <meta property="og:image" content="/img/og-image.jpg" />
-        </Helmet>
-        <Navbar />
-        <div>{children}</div>
-      </div>
-    )}
-  />
-)
-
-export default TemplateWrapper
+export default TemplateWrapper;
