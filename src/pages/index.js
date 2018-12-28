@@ -34,7 +34,9 @@ export default class IndexPage extends Component {
                     >
                         <Services services={servicesData} />
                     </Section>
-                    <LatestPosts posts={posts} />
+                    <Section modificator="regular-padding">
+                        <LatestPosts posts={posts} />
+                    </Section>
                     <Footer />
                 </main>
             </Layout>
@@ -58,7 +60,7 @@ export const pageQuery = graphql`
                     frontmatter {
                         title
                         templateKey
-                        date(formatString: "MMMM DD, YYYY")
+                        date(formatString: "DD.mm.YYYY")
                     }
                 }
             }

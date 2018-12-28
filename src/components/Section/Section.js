@@ -18,7 +18,7 @@ export default function Section({ title, intro, children, modificator }) {
 
 Section.propTypes = {
     children: node,
-    modificator: oneOf(['dark']),
+    modificator: oneOf(['dark', 'regular-padding']),
     title: string,
     intro: string,
 };
