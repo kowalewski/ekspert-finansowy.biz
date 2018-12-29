@@ -9,6 +9,9 @@ import Footer from '../components/Footer/Footer';
 import Section from '../components/Section/Section';
 import Services from '../components/Services/Services';
 import servicesData from '../components/Services/servicesData';
+import InView from '../components/InView/InView';
+import GoogleMap from '../components/GoogleMap/GoogleMap';
+import markers from '../components/GoogleMap/markers';
 
 export default class IndexPage extends Component {
     static propTypes = {
@@ -37,6 +40,21 @@ export default class IndexPage extends Component {
                     <Section modificator="regular-padding">
                         <LatestPosts posts={posts} />
                     </Section>
+                    <InView>
+                        <GoogleMap id="google-maps" markers={markers}>
+                            <div className="map__layer">
+                                <h4 className="map__title">
+                                    Obszar działalności
+                                </h4>
+                                <p className="map__txt">
+                                    Obszar mojej działaności to cztery miasta
+                                    powiatowe. NIe ma jednak problemu, abym mógł
+                                    spotkać się z klientem w wyznaczonym przez
+                                    niego miejscu.
+                                </p>
+                            </div>
+                        </GoogleMap>
+                    </InView>
                     <Footer />
                 </main>
             </Layout>
