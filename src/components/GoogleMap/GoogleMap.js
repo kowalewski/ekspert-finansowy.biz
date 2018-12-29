@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { string, arrayOf, number, shape, node } from 'prop-types';
 import loadScript from '../../helpers/loadScript/loadScript';
+import markerIcon from '../../img/marker.png';
 
 const MAP_KEY = 'AIzaSyBTtF0XieZJLhnn456wdszhNlg0VHShLLU';
 
@@ -32,10 +33,6 @@ export default class GoogleMap extends Component {
             lng: 22.89952,
         };
 
-        const icon = {
-            url: '/img/marker.png',
-        };
-
         // eslint-disable-next-line
         const map = new google.maps.Map(
             document.getElementById(this.props.id),
@@ -50,7 +47,9 @@ export default class GoogleMap extends Component {
             return new google.maps.Marker({
                 map,
                 position: marker,
-                icon,
+                icon: {
+                    url: markerIcon,
+                },
             });
         });
     };

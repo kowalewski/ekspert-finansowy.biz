@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import MovingBackground from '../MovingBackground/MovingBackground';
+import openFinanceLogo from '../../img/open-finance-logo.png';
+import bgImage from '../../img/bg-large.jpg';
 
 export default class Intro extends Component {
     state = {
@@ -33,12 +35,12 @@ export default class Intro extends Component {
                 <div className="intro__wrapper">
                     <MovingBackground
                         className="intro__bg"
-                        backgroundImageUrl="/img/bg-large.jpg"
+                        backgroundImageUrl={bgImage}
                     />
                     <div className={`intro__content ${contentClass}`}>
                         <img
                             className="intro__logo"
-                            src="img/open-finance-logo.png"
+                            src={openFinanceLogo}
                             alt="logo Open Finance"
                         />
                         <h1 className="intro__title">

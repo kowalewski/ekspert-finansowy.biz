@@ -1,4 +1,7 @@
 import React from 'react';
+import phoneIcon from '../../img/icon-phone.svg';
+import fbIcon from '../../img/icon-fb.svg';
+import mailIcon from '../../img/icon-mail.svg';
 
 export default function HeaderButtons() {
     return (
@@ -12,10 +15,7 @@ export default function HeaderButtons() {
                     rel="noopener noreferrer"
                     title="Ekspert finansowy - telefon"
                 >
-                    <img
-                        src="img/icon-phone.svg"
-                        alt="Ekspert finansowy - telefon"
-                    />
+                    <img src={phoneIcon} alt="Ekspert finansowy - telefon" />
                 </a>
             </div>
             <a
@@ -25,17 +25,14 @@ export default function HeaderButtons() {
                 rel="noopener noreferrer"
                 title="Ekspert finansowy - profil facebook"
             >
-                <img
-                    src="img/icon-fb.svg"
-                    alt="Ekspert finansowy - profil facebook"
-                />
+                <img src={fbIcon} alt="Ekspert finansowy - profil facebook" />
             </a>
             <a
                 href="mailto: pawel.kowalewski@opendirect.pl"
                 className="header-buttons__icon"
                 title="Ekspert finansowy - mail"
             >
-                <img src="img/icon-mail.svg" alt="Ekspert finansowy - mail" />
+                <img src={mailIcon} alt="Ekspert finansowy - mail" />
             </a>
         </div>
     );
