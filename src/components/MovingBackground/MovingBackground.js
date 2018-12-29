@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { string, number } from 'prop-types';
+import getWindowSize from '../../helpers/getWindowSize/getWindowSize';
 
 export default class MovingBackground extends Component {
     static propTypes = {
@@ -17,8 +18,8 @@ export default class MovingBackground extends Component {
     state = {
         positionX: 0,
         positionY: 0,
-        windowWidth: window.innerWidth,
-        windowHeight: window.innerHeight,
+        windowWidth: getWindowSize().width,
+        windowHeight: getWindowSize().height,
     };
 
     componentDidMount() {
