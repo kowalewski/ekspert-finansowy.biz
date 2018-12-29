@@ -1,0 +1,40 @@
+.map {
+    height: 100vh;
+    z-index: 10;
+
+    @include mq($mobile) {
+        height: 50vh;
+    }
+}
+
+.map__container {
+    position: relative;
+}
+
+.map__layer {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    padding: $gutter;
+    z-index: 9999;
+    width: 30vw;
+    min-width: 400px;
+    background-color: #fff;
+
+    @include mq($mobile) {
+        position: static;
+        min-width: 0;
+        width: 100%;
+    }
+}
+
+.map__title {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: $c-purple;
+}
+
+.map__txt {
+    font-size: 14px;
+}

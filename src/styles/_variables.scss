@@ -1,0 +1,20 @@
+// colors
+$c-purple: #332b7e;
+$c-pink: #964da7;
+
+$c-primary: $c-purple;
+$c-secondary: $c-pink;
+
+// spacing
+$gutter: 30px;
+$gutter-small: $gutter / 2;
+$gutter-medium: 1.5 * $gutter;
+$gutter-large: 2 * $gutter;
+
+// grid
+$container: 1100px;
+
+// media queries
+$mobile: 600px !default;
+$tablet-p: 768px !default; // portrait
+$tablet-l: 1024px !default; // landscape

@@ -1,0 +1,10 @@
+.row {
+    margin: 0 auto;
+    max-width: $container;
+    width: 95%;
+
+    @include mq($mobile) {
+        padding: 0 $gutter;
+        width: 100%;
+    }
+}
