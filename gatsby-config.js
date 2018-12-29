@@ -33,6 +33,12 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+                trackingIds: ['UA-112495850-1'],
+            },
+        },
+        {
             // keep as first gatsby-source-filesystem plugin for gatsby image support
             resolve: 'gatsby-source-filesystem',
             options: {
