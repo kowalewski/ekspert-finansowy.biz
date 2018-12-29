@@ -1,3 +1,7 @@
+.latest-posts {
+    border-top: 3px solid #f1f1f1;
+}
+
 .post {
     margin: 0 auto;
     max-width: $container;
@@ -118,6 +122,7 @@
     color: coral;
     text-transform: uppercase;
     font-size: 40px;
+    margin-top: $gutter;
 }
 
 .post__promo-title {

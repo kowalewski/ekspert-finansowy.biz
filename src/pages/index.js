@@ -37,9 +37,11 @@ export default class IndexPage extends Component {
                     >
                         <Services services={servicesData} />
                     </Section>
-                    <Section modificator="regular-padding">
-                        <LatestPosts posts={posts} />
-                    </Section>
+                    <div className="latest-posts">
+                        <Section modificator="regular-padding">
+                            <LatestPosts posts={posts} />
+                        </Section>
+                    </div>
                     <InView>
                         <GoogleMap id="google-maps" markers={markers}>
                             <div className="map__layer">
@@ -55,6 +57,12 @@ export default class IndexPage extends Component {
                             </div>
                         </GoogleMap>
                     </InView>
+                    <Section modificator="dark">
+                        <blockquote className="section__quote">
+                            "Kto mówi językiem niezrozumiałym dla nikogo poza
+                            nim, nie mówi w ogóle. Mówić, to mówić do kogoś."
+                        </blockquote>
+                    </Section>
                     <Footer />
                 </main>
             </Layout>

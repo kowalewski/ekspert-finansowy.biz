@@ -84,3 +84,18 @@
         margin-top: $gutter;
     }
 }
+
+.section__quote {
+    padding: $gutter-large * 2 $gutter-large;
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 100;
+
+    @include mq($mobile) {
+        font-size: 22px;
+        padding: 0 20px;
+    }
+}
