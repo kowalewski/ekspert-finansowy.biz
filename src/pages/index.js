@@ -12,6 +12,8 @@ import servicesData from '../components/Services/servicesData';
 import InView from '../components/InView/InView';
 import GoogleMap from '../components/GoogleMap/GoogleMap';
 import markers from '../components/GoogleMap/markers';
+import Benefits from '../components/Benefits/Benefits';
+import benefitsData from '../components/Benefits/benefitsData';
 
 export default class IndexPage extends Component {
     static propTypes = {
@@ -62,6 +64,9 @@ export default class IndexPage extends Component {
                             "Kto mówi językiem niezrozumiałym dla nikogo poza
                             nim, nie mówi w ogóle. Mówić, to mówić do kogoś."
                         </blockquote>
+                    </Section>
+                    <Section title="Korzyści dla klienta">
+                        <Benefits benefits={benefitsData} />
                     </Section>
                     <Footer />
                 </main>
