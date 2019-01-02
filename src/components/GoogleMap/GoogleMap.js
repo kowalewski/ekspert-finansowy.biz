@@ -20,7 +20,7 @@ export default class GoogleMap extends Component {
     componentDidMount() {
         loadScript({
             url: `https://maps.googleapis.com/maps/api/js?key=${MAP_KEY}`,
-            tagId: `${this.props.id}-script`,
+            id: `${this.props.id}-script`,
         }).then(this.setupGoogleMap);
     }
 

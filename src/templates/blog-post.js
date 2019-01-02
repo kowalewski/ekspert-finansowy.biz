@@ -1,58 +1,50 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+import PostContent from '../components/PostContent/PostContent';
+import BackButton from '../components/BackButton/BackButton';
 
 export const BlogPostTemplate = ({
     content,
-    contentComponent,
     description,
-    tags,
+    date,
     title,
     helmet,
 }) => {
-    const PostContent = contentComponent || Content;
-
     return (
-        <section className="section">
+        <main className="main-content">
             {helmet || ''}
-            <div className="container content">
-                <div className="columns">
-                    <div className="column is-10 is-offset-1">
-                        <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                            {title}
-                        </h1>
-                        <p>{description}</p>
-                        <PostContent content={content} />
-                        {tags && tags.length ? (
-                            <div style={{ marginTop: `4rem` }}>
-                                <h4>Tags</h4>
-                                <ul className="taglist">
-                                    {tags.map(tag => (
-                                        <li key={tag + `tag`}>
-                                            <Link
-                                                to={`/tags/${kebabCase(tag)}/`}
-                                            >
-                                                {tag}
-                                            </Link>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        ) : null}
+            <section className="post">
+                <h3 className="post__title">
+                    <BackButton />
+                    {title}
+                </h3>
+                <div className="post__intro">
+                    <div className="post__meta">
+                        {date}, <br />
+                        <strong>Paweł Kowalewski</strong>, Ekspert Finansowy
+                        Open Finance <br />
+                        tel: 785 808 378 <br />
+                        <a
+                            href="https://www.facebook.com/finansekredytyubezpieczenia"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            /finansekredytyubezpieczenia
+                        </a>
                     </div>
+                    <p className="post__ingress">{description}</p>
                 </div>
-            </div>
-        </section>
+                <PostContent content={content} className="post__content" />
+            </section>
+        </main>
     );
 };
 
 BlogPostTemplate.propTypes = {
     content: PropTypes.node.isRequired,
-    contentComponent: PropTypes.func,
     description: PropTypes.string,
     title: PropTypes.string,
     helmet: PropTypes.object,
@@ -65,7 +57,6 @@ const BlogPost = ({ data }) => {
         <Layout>
             <BlogPostTemplate
                 content={post.html}
-                contentComponent={HTMLContent}
                 description={post.frontmatter.description}
                 helmet={
                     <Helmet titleTemplate="%s | Blog">
@@ -76,7 +67,7 @@ const BlogPost = ({ data }) => {
                         />
                     </Helmet>
                 }
-                tags={post.frontmatter.tags}
+                date={post.frontmatter.date}
                 title={post.frontmatter.title}
             />
         </Layout>
@@ -97,10 +88,9 @@ export const pageQuery = graphql`
             id
             html
             frontmatter {
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "DD.mm.YYYY")
                 title
                 description
-                tags
             }
         }
     }
