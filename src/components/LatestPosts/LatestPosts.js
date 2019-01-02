@@ -5,14 +5,14 @@ import { Link } from 'gatsby';
 export default function LatestPosts({ posts }) {
     return (
         <div>
-            <h1 className="post__promo-headline">Najnowsze wpisy na blogu</h1>
-            <div className="post__promo-list">
+            <h1 className="latest-posts__headline">Najnowsze wpisy na blogu</h1>
+            <div className="latest-posts__list">
                 {posts.map(({ node: post }) => (
-                    <div className="post__promo-item" key={post.id}>
-                        <h4 className="post__promo-data">
+                    <div className="latest-posts__item" key={post.id}>
+                        <h4 className="latest-posts__data">
                             {post.frontmatter.date}
                         </h4>
-                        <h3 className="post__promo-title">
+                        <h3 className="latest-posts__title">
                             <Link
                                 to={post.fields.slug}
                                 title={post.frontmatter.title}
@@ -20,9 +20,9 @@ export default function LatestPosts({ posts }) {
                                 {post.frontmatter.title}
                             </Link>
                         </h3>
-                        <p className="post__promo-text">{post.excerpt}</p>
+                        <p className="latest-posts__text">{post.excerpt}</p>
                         <Link
-                            className="post__promo-more"
+                            className="latest-posts__more"
                             to={post.fields.slug}
                             title={post.frontmatter.title}
                         >

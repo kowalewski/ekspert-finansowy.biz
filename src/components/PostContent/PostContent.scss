@@ -1,0 +1,129 @@
+.post {
+    margin: 0 auto;
+    max-width: $container;
+    width: 95%;
+    padding: ($gutter-large * 2) 0 $gutter-large 0;
+
+    @include mq($tablet-l) {
+        padding: $gutter-large 0;
+    }
+
+    @include mq($mobile) {
+        padding: $gutter 0;
+        width: 100%;
+        max-width: none;
+    }
+}
+
+.post__title {
+    padding: 0 $gutter-large;
+    max-width: 90%;
+    font-size: 50px;
+    margin-bottom: $gutter;
+    color: $c-primary;
+    line-height: 1.3;
+
+    @include mq($tablet-p) {
+        font-size: 40px;
+        max-width: 100%;
+        margin-bottom: $gutter-medium;
+        padding: 0 $gutter;
+    }
+
+    @include mq($mobile) {
+        font-size: 26px;
+        margin-bottom: $gutter;
+        padding: 0 $gutter;
+    }
+}
+
+.post__intro {
+    position: relative;
+    padding: 0 $gutter-large;
+    padding-right: 10%;
+    margin-bottom: $gutter-large;
+
+    @include mq($tablet-p) {
+        padding: 0 $gutter;
+        margin-bottom: $gutter;
+    }
+}
+
+.post__meta {
+    padding: $gutter 0;
+    border-top: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
+    font-size: 17px;
+    color: #666;
+    margin-bottom: $gutter;
+    line-height: 1.8;
+}
+
+.post__ingress {
+    line-height: 1.9;
+    font-size: 24px;
+
+    @include mq($mobile) {
+        font-size: 20px;
+    }
+}
+
+/* purgecss start ignore */
+.post__content {
+    padding: 0 $gutter-large;
+    padding-right: 10%;
+    margin-bottom: $gutter-large;
+
+    @include mq($tablet-p) {
+        padding: 0 $gutter;
+    }
+
+    p {
+        line-height: 1.9;
+        font-size: 17px;
+        margin-bottom: $gutter;
+
+        @include mq($mobile) {
+            font-size: 16px;
+            margin-bottom: $gutter / 2;
+        }
+    }
+
+    li {
+        line-height: 1.9;
+        font-size: 17px;
+        margin-bottom: $gutter / 2;
+    }
+
+    h3 {
+        font-size: 25px;
+        width: 70%;
+        line-height: 1.4;
+        margin-top: $gutter-large;
+        margin-bottom: $gutter;
+        color: $c-primary;
+
+        @include mq($mobile) {
+            width: 100%;
+            margin-top: $gutter-medium;
+            margin-bottom: $gutter / 2;
+        }
+    }
+
+    table {
+        margin-bottom: $gutter;
+    }
+
+    th {
+        font-weight: bold;
+        color: $c-primary;
+    }
+
+    th,
+    td {
+        border-bottom: 2px solid #f1f1f1;
+        padding: $gutter-small;
+        text-align: left;
+    }
+}
+/* purgecss end ignore */

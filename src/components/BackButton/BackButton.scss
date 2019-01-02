@@ -1,0 +1,23 @@
+.back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+    color: #000;
+    position: relative;
+    font-size: 30px;
+    color: $c-primary;
+    text-decoration: none;
+    transition: .3s;
+    margin-bottom: $gutter;
+    line-height: 1;
+
+    &:hover {
+        border-collapse: $c-primary;
+        background: $c-primary;
+        color: #fff;
+    }
+}
