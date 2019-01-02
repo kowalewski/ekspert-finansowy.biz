@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MovingBackground from '../MovingBackground/MovingBackground';
 import openFinanceLogo from '../../img/open-finance-logo.png';
 import bgImage from '../../img/bg-large.jpg';
+import ScrollToButton from '../ScrollToButton/ScrollToButton';
 
 export default class Intro extends Component {
     state = {
@@ -15,14 +16,6 @@ export default class Intro extends Component {
             });
         }, 200);
     }
-
-    onArrowClick = selector => () => {
-        const $element = document.querySelector(selector);
-        window.scroll({
-            top: $element.getBoundingClientRect().top,
-            behavior: 'smooth',
-        });
-    };
 
     render() {
         const { isContentVisible } = this.state;
@@ -55,10 +48,7 @@ export default class Intro extends Component {
                         </p>
                     </div>
                 </div>
-                <button
-                    className="intro__navigation js-scroll-to"
-                    onClick={this.onArrowClick('.js-content')}
-                />
+                <ScrollToButton selector=".js-content" />
             </div>
         );
     }

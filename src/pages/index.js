@@ -32,7 +32,7 @@ export default class IndexPage extends Component {
             <Layout>
                 <Intro />
                 <HeaderButtons />
-                <main className="main-content full-height">
+                <main className="main-content full-height js-content">
                     <Section
                         title="Chciałbyś wiedzieć w czym mogę Ci pomóc?"
                         intro="Jako ekspert finansowy oferuję Państwu profesjonalną pomoc w zakresie finansów i ubezpieczeń. Swoją działalność opieram na pośredniczeniu w udzielaniu wszelkiego rodzaju kredytów, a także leasingów. Kompletuję od Państwa niezbędną dokumentację do procesowania wniosku kredytowego i przeprowadzam Państwa przez cały etap okołokredytowy. Dysponuję ofertą ponad 16 renomowanych banków, co pozwala na dobranie jak najkorzystniejszej oferty do Państwa potrzeb. Oprócz tego, jako agent ubezpieczeniowy, jestem w stanie pomóc Państwu wybrać odpowiednią ofertę ubezpieczenia na życie spośród cenionych na polskim rynku firm ubezpieczeniowych."
