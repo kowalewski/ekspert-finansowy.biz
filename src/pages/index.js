@@ -91,7 +91,7 @@ export const pageQuery = graphql`
                     frontmatter {
                         title
                         templateKey
-                        date(formatString: "DD.mm.YYYY")
+                        date(formatString: "DD.MM.YYYY")
                     }
                 }
             }
