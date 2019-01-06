@@ -33,18 +33,13 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-google-gtag`,
+            resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingIds: ['UA-112495850-1'],
-                gtagConfig: {
-                    optimize_id: 'OPT_CONTAINER_ID',
-                    anonymize_ip: true,
-                },
-                pluginConfig: {
-                    head: false,
-                    respectDNT: true,
-                    exclude: ['/preview/**', '/do-not-track/me/too/'],
-                },
+                trackingId: 'UA-112495850-1',
+                head: false,
+                anonymize: true,
+                respectDNT: true,
+                exclude: ['/preview/**', '/do-not-track/me/too/'],
             },
         },
         {
