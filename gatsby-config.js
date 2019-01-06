@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: 'Ekspert finansowy - Paweł Kowalewski',
         description:
-            'Jako ekspert finansowy oferuję Państwu profesjonalną pomoc w zakresie finansów i ubezpieczeń. Swoją działalność opieram na pośredniczeniu w udzielaniu wszelkiego rodzaju kredytów, a także leasingów. Kompletuję od Państwa niezbędną dokumentację do procesowania wniosku kredytowego i przeprowadzam Państwa przez cały etap okołokredytowy. Dysponuję ofertą ponad 16 renomowanych banków, co pozwala na dobranie jak najkorzystniejszej oferty do Państwa potrzeb.',
+        'Jako ekspert finansowy oferuję Państwu profesjonalną pomoc w zakresie finansów i ubezpieczeń. Swoją działalność opieram na pośredniczeniu w udzielaniu wszelkiego rodzaju kredytów, a także leasingów. Kompletuję od Państwa niezbędną dokumentację do procesowania wniosku kredytowego i przeprowadzam Państwa przez cały etap okołokredytowy. Dysponuję ofertą ponad 16 renomowanych banków, co pozwala na dobranie jak najkorzystniejszej oferty do Państwa potrzeb.',
     },
     plugins: [
         'gatsby-plugin-react-helmet',
@@ -33,18 +33,13 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-google-gtag`,
+            resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingIds: ['UA-112495850-1'],
-                gtagConfig: {
-                    optimize_id: 'OPT_CONTAINER_ID',
-                    anonymize_ip: true,
-                },
-                pluginConfig: {
-                    head: false,
-                    respectDNT: true,
-                    exclude: ['/preview/**', '/do-not-track/me/too/'],
-                },
+                trackingId: "UA-112495850-1",
+                head: false,
+                anonymize: true,
+                respectDNT: true,
+                exclude: ["/preview/**", "/do-not-track/me/too/"],
             },
         },
         {
