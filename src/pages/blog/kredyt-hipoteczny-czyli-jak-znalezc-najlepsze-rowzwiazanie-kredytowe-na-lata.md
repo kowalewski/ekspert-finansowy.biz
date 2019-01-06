@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: KREDYT HIPOTECZNY - CZYLI JAK ZNALEŹĆ NAJLEPSZE ROZWIĄZANIE KREDYTOWE NA LATA
-date: 2016-07-24T14:04:10.000Z
+date: 2018-07-24T14:04:10.000Z
 description: >-
   Znalezienie dobrego kredytu hipotecznego nie należy do łatwych, tym bardziej
   jeżeli nie mieliśmy wcześniej do czynienia z pojęciami, które ściśle powiązane
