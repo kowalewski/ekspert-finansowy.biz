@@ -95,8 +95,7 @@
         margin-bottom: $gutter / 2;
     }
 
-    h3 {
-        font-size: 25px;
+    h1, h2, h3 {
         width: 70%;
         line-height: 1.4;
         margin-top: $gutter-large;
@@ -107,6 +106,22 @@
             width: 100%;
             margin-top: $gutter-medium;
             margin-bottom: $gutter / 2;
+        }
+    }
+
+    h1 {
+        font-size: 30px;
+
+        @include mq($mobile) {
+            font-size: 30px * 0.8;
+        }
+    }
+
+    h2, h3 {
+        font-size: 25px;
+
+        @include mq($mobile) {
+            font-size: 25px * 0.8;
         }
     }
 
