@@ -3,16 +3,19 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import PostContent from '../components/PostContent/PostContent';
 import BackButton from '../components/BackButton/BackButton';
+import Content, { HTMLContent } from '../components/PostContent/PostContent';
 
 export const BlogPostTemplate = ({
     content,
+    contentComponent,
     description,
     date,
     title,
     helmet,
 }) => {
+    const PostContent = contentComponent || Content;
+
     return (
         <main className="main-content">
             {helmet || ''}
@@ -45,6 +48,7 @@ export const BlogPostTemplate = ({
 
 BlogPostTemplate.propTypes = {
     content: PropTypes.node.isRequired,
+    contentComponent: PropTypes.func,
     description: PropTypes.string,
     title: PropTypes.string,
     helmet: PropTypes.object,
@@ -57,9 +61,10 @@ const BlogPost = ({ data }) => {
         <Layout>
             <BlogPostTemplate
                 content={post.html}
+                contentComponent={HTMLContent}
                 description={post.frontmatter.description}
                 helmet={
-                    <Helmet titleTemplate="%s | Blog">
+                    <Helmet titleTemplate="%s | Paweł Kowalewski - ekspert-finansowy.biz">
                         <title>{`${post.frontmatter.title}`}</title>
                         <meta
                             name="description"
