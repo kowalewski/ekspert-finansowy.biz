@@ -3,7 +3,7 @@ const createScript = ({ url, id, attributes }) => {
     script.setAttribute('id', id);
     script.setAttribute('src', url);
 
-    attributes.forEach((attribute) => {
+    attributes.forEach(attribute => {
         script.setAttribute(attribute.name, attribute.value);
     });
 
