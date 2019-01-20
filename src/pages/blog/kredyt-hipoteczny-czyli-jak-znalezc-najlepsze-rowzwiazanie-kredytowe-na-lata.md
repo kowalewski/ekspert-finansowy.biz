@@ -11,7 +11,7 @@ description: >-
   opłaty, czy całkowite koszty kredytu, mogą różnić się w poszczególnych
   ofertach banków.
 tags:
-  - ''
+  - 'kredyt hipoteczny'
 ---
 To co przeważnie wpływa na przyszłą decyzję, który bank wybrać, to przede wszystkim oprocentowanie kredytu. Oprocentowanie kredytu hipotecznego składa się ze stawki bazowej oraz marży banku. Stawka bazowa jest to najczęściej WIBOR 3M, a w niektórych bankach np. ING Bank Śląski WIBOR 6M.
 
