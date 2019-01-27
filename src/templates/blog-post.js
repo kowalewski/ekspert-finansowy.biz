@@ -19,11 +19,11 @@ export const BlogPostTemplate = ({
     return (
         <main className="main-content">
             {helmet || ''}
-            <section className="post">
-                <h3 className="post__title">
+            <article className="post">
+                <h1 className="post__title">
                     <BackButton />
                     {title}
-                </h3>
+                </h1>
                 <div className="post__intro">
                     <div className="post__meta">
                         {date}, <br />
@@ -41,7 +41,7 @@ export const BlogPostTemplate = ({
                     <p className="post__ingress">{description}</p>
                 </div>
                 <PostContent content={content} className="post__content" />
-            </section>
+            </article>
         </main>
     );
 };

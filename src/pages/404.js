@@ -3,9 +3,11 @@ import Layout from '../components/Layout';
 
 const NotFoundPage = () => (
     <Layout>
-        <div>
-            <h1>NOT FOUND</h1>
-            <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <div className="not-found__wrapper">
+            <h1>Podana strona nie istnieje</h1>
+            <p>
+                <a href="https://ekspert-finansowy.biz">wróć do ekspert-finansowy.biz</a>
+            </p>
         </div>
     </Layout>
 );

@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 export default function LatestPosts({ posts }) {
     return (
         <div>
-            <h1 className="latest-posts__headline">Najnowsze wpisy na blogu</h1>
+            <h2 className="latest-posts__headline">Najnowsze wpisy na blogu</h2>
             <div className="latest-posts__list">
                 {posts.map(({ node: post }) => (
                     <div className="latest-posts__item" key={post.id}>

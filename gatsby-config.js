@@ -1,9 +1,18 @@
+const {
+    NODE_ENV,
+    URL: NETLIFY_SITE_URL = 'https://ekspert-finansowy.biz',
+    DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+    CONTEXT: NETLIFY_ENV = NODE_ENV
+} = process.env;
+const isNetlifyProduction = NETLIFY_ENV === 'production';
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
+
 module.exports = {
     siteMetadata: {
         title: 'Ekspert finansowy - Paweł Kowalewski',
         description:
-            'Jako ekspert finansowy oferuję Państwu profesjonalną pomoc w zakresie finansów i ubezpieczeń. Swoją działalność opieram na pośredniczeniu w udzielaniu wszelkiego rodzaju kredytów, a także leasingów. Kompletuję od Państwa niezbędną dokumentację do procesowania wniosku kredytowego i przeprowadzam Państwa przez cały etap okołokredytowy. Dysponuję ofertą ponad 16 renomowanych banków, co pozwala na dobranie jak najkorzystniejszej oferty do Państwa potrzeb.',
-        siteUrl: 'https://www.ekspert-finansowy.biz',
+        'Profesjonalna pomoc w zakresie finansów i ubezpieczeń na terenie Augustowa.',
+        siteUrl,
     },
     plugins: [
         'gatsby-plugin-react-helmet',
@@ -43,6 +52,35 @@ module.exports = {
                 respectDNT: true,
                 exclude: ['/preview/**', '/do-not-track/me/too/'],
             },
+        },
+        {
+            resolve: 'gatsby-plugin-canonical-urls',
+            options: {
+                siteUrl,
+            },
+        },
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+                resolveEnv: () => NETLIFY_ENV,
+                env: {
+                    production: {
+                        host: siteUrl,
+                        policy: [{ userAgent: '*' }],
+                        sitemap: `${siteUrl}/sitemap.xml`,
+                    },
+                    'branch-deploy': {
+                        policy: [{ userAgent: '*', disallow: ['/'] }],
+                        sitemap: null,
+                        host: null
+                    },
+                    'deploy-preview': {
+                        policy: [{ userAgent: '*', disallow: ['/'] }],
+                        sitemap: null,
+                        host: null
+                    }
+                }
+            }
         },
         {
             // keep as first gatsby-source-filesystem plugin for gatsby image support
