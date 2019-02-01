@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Kredyt na budowę domu- czyli jak z głową podejść do inwestycji. '
+title: Kredyt na budowę domu- czyli jak z głową podejść do inwestycji
 date: 2019-02-01T11:41:34.299Z
 description: >+
   Obecne realia na rynku nieruchomości (ceny najmu mieszkań i niskie koszty
