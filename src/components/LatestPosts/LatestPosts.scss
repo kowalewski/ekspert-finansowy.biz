@@ -24,12 +24,13 @@
     }
 }
 
-.latest-posts__data {
-    opacity: 0.5;
+.latest-posts__date {
+    color: #666;
     margin-bottom: $gutter / 3;
 }
 
 .latest-posts__text {
+    color: #666;
     line-height: 1.8;
     width: 80%;
     margin-bottom: $gutter;
