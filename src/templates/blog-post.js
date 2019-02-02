@@ -2,8 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
+import shuffle from '../helpers/shuffle/shuffle';
 import Layout from '../components/Layout';
 import BackButton from '../components/BackButton/BackButton';
+import Footer from '../components/Footer/Footer';
+import Section from '../components/Section/Section';
+import LatestPosts from '../components/LatestPosts/LatestPosts';
 import Content, { HTMLContent } from '../components/PostContent/PostContent';
 
 export const BlogPostTemplate = ({
@@ -55,7 +59,9 @@ BlogPostTemplate.propTypes = {
 };
 
 const BlogPost = ({ data }) => {
-    const { markdownRemark: post } = data;
+    const { post, latest } = data;
+    const { edges: posts } = latest;
+    const shuffledPosts = shuffle(posts);
 
     return (
         <Layout>
@@ -75,6 +81,15 @@ const BlogPost = ({ data }) => {
                 date={post.frontmatter.date}
                 title={post.frontmatter.title}
             />
+            <div className="latest-posts">
+                <Section modificator="regular-padding">
+                    <LatestPosts
+                        posts={shuffledPosts.slice(0, 2)}
+                        title="MOŻE ZAINTERESUJE CIĘ RÓWNIEŻ"
+                    />
+                </Section>
+            </div>
+            <Footer />
         </Layout>
     );
 };
@@ -89,13 +104,32 @@ export default BlogPost;
 
 export const pageQuery = graphql`
     query BlogPostByID($id: String!) {
-        markdownRemark(id: { eq: $id }) {
+        post: markdownRemark(id: { eq: $id }) {
             id
             html
             frontmatter {
                 date(formatString: "DD.MM.YYYY")
                 title
                 description
+            }
+        }
+        latest: allMarkdownRemark(
+            sort: { order: DESC, fields: [frontmatter___date] }
+            filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+        ) {
+            edges {
+                node {
+                    excerpt(pruneLength: 200)
+                    id
+                    fields {
+                        slug
+                    }
+                    frontmatter {
+                        title
+                        templateKey
+                        date(formatString: "DD.MM.YYYY")
+                    }
+                }
             }
         }
     }

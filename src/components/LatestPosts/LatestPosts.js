@@ -2,14 +2,16 @@ import React from 'react';
 import { array } from 'prop-types';
 import { Link } from 'gatsby';
 
-export default function LatestPosts({ posts }) {
+export default function LatestPosts({ posts, title }) {
     return (
         <div>
-            <h2 className="latest-posts__headline">Najnowsze wpisy na blogu</h2>
+            <h2 className="latest-posts__headline">
+                {title || 'Najnowsze wpisy na blogu'}
+            </h2>
             <div className="latest-posts__list">
                 {posts.map(({ node: post }) => (
                     <div className="latest-posts__item" key={post.id}>
-                        <h4 className="latest-posts__data">
+                        <h4 className="latest-posts__date">
                             {post.frontmatter.date}
                         </h4>
                         <h3 className="latest-posts__title">
@@ -20,7 +22,9 @@ export default function LatestPosts({ posts }) {
                                 {post.frontmatter.title}
                             </Link>
                         </h3>
-                        <p className="latest-posts__text">{post.excerpt}</p>
+                        {post.excerpt && (
+                            <p className="latest-posts__text">{post.excerpt}</p>
+                        )}
                         <Link
                             className="latest-posts__more"
                             to={post.fields.slug}
