@@ -9,12 +9,12 @@ export default function Footer() {
                 <Row>
                     <div className="footer__container">
                         <div className="footer__box">
-                            <p className="footer__item">
+                            <address className="footer__item">
                                 <strong>Adres:</strong>
                                 <br />
                                 ul. Rynek Zygmunta Augusta 11/1, <br />
                                 16-300 Augustów
-                            </p>
+                            </address>
                             <p className="footer__item">
                                 <strong>Godziny otwarcia:</strong>
                                 <br />
@@ -25,21 +25,30 @@ export default function Footer() {
                             <p className="footer__item">
                                 <strong>Telefon:</strong>
                                 <br />
-                                <a href="tel: +48 785 808 378" title="Numer telefonu: +48 785 808 378">
+                                <a
+                                    href="tel: +48 785 808 378"
+                                    title="Numer telefonu: +48 785 808 378"
+                                >
                                     +48 785 808 378
                                 </a>
                             </p>
                             <p className="footer__item">
                                 <strong>Email:</strong>
                                 <br />
-                                <a href="mailto: pawel.kowalewski@opendirect.pl" title="Adres e-mail: pawel.kowalewski@opendirect.pl">
+                                <a
+                                    href="mailto: pawel.kowalewski@opendirect.pl"
+                                    title="Adres e-mail: pawel.kowalewski@opendirect.pl"
+                                >
                                     pawel.kowalewski@opendirect.pl
                                 </a>
                             </p>
                             <p className="footer__item">
                                 <strong>Facebook:</strong>
                                 <br />
-                                <a href="https://www.facebook.com/finansekredytyubezpieczenia/" title="Profil Facebook: /finansekredytyubezpieczenia/">
+                                <a
+                                    href="https://www.facebook.com/finansekredytyubezpieczenia/"
+                                    title="Profil Facebook: /finansekredytyubezpieczenia/"
+                                >
                                     /finansekredytyubezpieczenia/
                                 </a>
                             </p>

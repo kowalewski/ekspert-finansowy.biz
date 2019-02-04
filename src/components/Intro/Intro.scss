@@ -114,6 +114,7 @@ $transitionDelay: 0.2s;
     font-size: $fs;
     color: rgba(#fff, 0.5);
     margin-bottom: $gutter-medium;
+    line-height: 1.2;
     @include introAnimationBase(2);
 
     @include mq($tablet-l) {

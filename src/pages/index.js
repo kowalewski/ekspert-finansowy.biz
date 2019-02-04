@@ -52,7 +52,8 @@ export default class IndexPage extends Component {
                                 </h4>
                                 <p className="map__txt">
                                     Obszar mojej działaności to cztery miasta
-                                    powiatowe. NIe ma jednak problemu, abym mógł
+                                    powiatowe: Augustów, Olecko, Sejny i
+                                    Suwałki. Nie ma jednak problemu, abym mógł
                                     spotkać się z klientem w wyznaczonym przez
                                     niego miejscu.
                                 </p>
