@@ -15,8 +15,6 @@ tags:
 ---
 To co przeważnie wpływa na przyszłą decyzję, który bank wybrać, to przede wszystkim oprocentowanie kredytu. Oprocentowanie kredytu hipotecznego składa się ze stawki bazowej oraz marży banku. Stawka bazowa jest to najczęściej WIBOR 3M, a w niektórych bankach np. ING Bank Śląski WIBOR 6M.
 
-![](/img/dzien_otwarty_1_logo_1eb24_4e975.png)
-
 WIBOR referencyjna wysokość oprocentowania kredytów na polskim rynku międzybankowym. Jest on zmienny, co może wiązać się z ryzykiem podwyższenia się oprocentowania kredytu, czyli wyższą ratą, niż w dniu podpisania umowy kredytowej. W ostatnich latach nie zauważyliśmy jednak podwyższenia się stopy referencyjnej, utrzymuje się ona na jednolitym stabilnym poziomie. Musimy jednak pamiętać, że jeszcze 6 lat temu, czyli w 2012 rok był on w okolicach 5%, przy aktualnej wysokości stopy referencyjnej 1,7%.
 
 Natomiast marża banku, jest to bezpośredni zysk banku za udzielenia klientowi kredytu hipotecznego, czyli to na czym bank zarabia. Jednakże inaczej niż wspomniany powyżej WIBOR, marża jest niezmienna przez cały okres kredytowania. Jest to ważny czynnik, na który warto zwrócić uwagę przy rozpatrywaniu, który bank daje najkorzystniejszą ofertę.
