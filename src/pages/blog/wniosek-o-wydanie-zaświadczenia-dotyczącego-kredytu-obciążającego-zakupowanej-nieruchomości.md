@@ -1,8 +1,6 @@
 ---
 templateKey: blog-post
-title: >-
-  Wniosek o wydanie zaświadczenia dotyczącego kredytu obciążającego- zakupowanej
-  nieruchomości
+title: Wniosek o wydanie zaświadczenia dotyczącego kredytu hipotecznego
 date: 2019-03-11T12:32:06.685Z
 description: >-
   Kupując nieruchomość z rynku wtórnego może ona być obciążona hipoteką jakiegoś
