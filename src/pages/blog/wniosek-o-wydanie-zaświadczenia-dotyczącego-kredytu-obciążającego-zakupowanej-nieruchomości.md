@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: >-
-  Wniosek o wydanie zaświadczenia dotyczącego kredytu obciążającego zakupowanej
+  Wniosek o wydanie zaświadczenia dotyczącego kredytu obciążającego- zakupowanej
   nieruchomości
 date: 2019-03-11T12:32:06.685Z
 description: >-
