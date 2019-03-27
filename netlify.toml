@@ -11,16 +11,6 @@
   force = true
 
 [[redirects]]
-  from = "https://kredyty-augustow.pl"
-  to = "https://ekspert-finansowy.biz"
-  force = true
-
-[[redirects]]
   from = "https://ekspert-finansowy.netlify.com/*"
-  to = "https://ekspert-finansowy.biz/:splat"
-  force = true
-
-[[redirects]]
-  from = "https://kredyty-augustow.pl/*"
   to = "https://ekspert-finansowy.biz/:splat"
   force = true
