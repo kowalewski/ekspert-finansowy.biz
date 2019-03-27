@@ -57,6 +57,10 @@ const TemplateWrapper = ({ children }) => (
                         name="og:image"
                         content="http://ekspert-finansowy.biz/images/bg-large.jpg"
                     />
+                    <meta
+                        name="google-site-verification"
+                        content="ERwpfXLy-xQOdU_FgEYLn6N_muXaFvBvfvWSDmi6zyA"
+                    />
                     <meta name="og:locale" content="pl_PL" />
                 </Helmet>
                 <div>{children}</div>
