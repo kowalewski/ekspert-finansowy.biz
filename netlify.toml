@@ -4,6 +4,11 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+
 [[redirects]]
   from = "https://ekspert-finansowy.netlify.com/*"
+  to = "https://ekspert-finansowy.biz/:splat"
+
+[[redirects]]
+  from = "https://kredyty-augustow.pl/*"
   to = "https://ekspert-finansowy.biz/:splat"
