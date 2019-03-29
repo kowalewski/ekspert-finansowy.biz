@@ -24,3 +24,8 @@
   from = "https://kredyty-augustow.pl/*"
   to = "https://ekspert-finansowy.biz/:splat"
   force = true
+
+[[redirects]]
+  from = "http://kredyty-augustow.pl/*"
+  to = "https://ekspert-finansowy.biz/:splat"
+  force = true
