@@ -16,7 +16,11 @@
   force = true
 
 [[redirects]]
+  from = "https://kredyty-augustow.pl"
+  to = "https://ekspert-finansowy.biz"
+  force = true
+
+[[redirects]]
   from = "https://kredyty-augustow.pl/*"
   to = "https://ekspert-finansowy.biz/:splat"
-  status = 301
   force = true
