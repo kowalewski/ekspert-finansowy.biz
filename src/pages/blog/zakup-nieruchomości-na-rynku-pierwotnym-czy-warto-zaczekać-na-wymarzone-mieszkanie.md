@@ -101,7 +101,7 @@ Zgłaszasz się do sądu lub notariusza w celu ustanowienia hipoteki na rzecz ba
 
 Po wyodrębnieniu KW (księgi wieczystej) i ustanowieniu hipoteki kredytobiorca zgłasza się do banku w celu anulowania ubezpieczenia pomostowego, a jednocześnie obniżenia oprocentowanie kredytu. 
 
-## Cechy charakterystyczne kredytowanego zakupu mieszkania z rynku pierwotnego
+## Cechy charakterystyczne zakupu mieszkania z rynku pierwotnego przy pomocy kredytu hipotecznego
 
 Jeżeli już się Państwo zdecydujecie na zakup nieruchomości z rynku pierwotnego to trzeba pamiętać, że posiada on specyficzne cechy, o których warto jest pamiętać. Poniżej najważniejsze z nich:
 
