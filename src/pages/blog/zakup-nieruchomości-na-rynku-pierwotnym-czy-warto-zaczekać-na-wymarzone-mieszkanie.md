@@ -17,9 +17,7 @@ tags:
 ---
 ![](/img/zakup-nieruchomości.png)
 
-
-
-## Nabycie nieruchomości z rynku pierwotnego i wtórnego 
+## Nabycie nieruchomości z rynku pierwotnego i wtórnego
 
 Niezależnie od tego czy chcemy nabyć nieruchomość z rynku wtórnego czy pierwotnego, wiąże się to z wieloetapowym procesem, który nie zawsze jest łatwy. Różnice pomiędzy tymi dwoma procesami są znaczące i w dużym stopniu zależą od stopnia zaawansowania budowy  nieruchomości. Ma to wpływ na kwotę kosztów około kredytowych, a także na czasochłonność procedur. Proces zakupu nowego mieszkania oddanego do użytkowania będzie przebiegać podobnie, jak nabycie nieruchomości z rynku wtórnego. Natomiast znaczące różnice pojawiają się wówczas, kiedy chcemy kupić nieruchomość z rynku pierwotnego.
 
@@ -107,7 +105,7 @@ Po wyodrębnieniu KW (księgi wieczystej) i ustanowieniu hipoteki kredytobiorca 
 
 Jeżeli już się Państwo zdecydujecie na zakup nieruchomości z rynku pierwotnego to trzeba pamiętać, że posiada on specyficzne cechy, o których warto jest pamiętać. Poniżej najważniejsze z nich:
 
-1.	 Większa ilość wymaganych dokumentów niż w przypadku zakupu nieruchomości na rynku wtórnym. Nie trzeba jednak za zbytnio się tym przejmować, ponieważ biura sprzedaży mieszkań czy też domów przygotowują niezbędną dokumentację potrzebną do złożenia wniosku kredytowego. Zazwyczaj są to następujące dokumenty: 
+1.  Większa ilość wymaganych dokumentów niż w przypadku zakupu nieruchomości na rynku wtórnym. Nie trzeba jednak za zbytnio się tym przejmować, ponieważ biura sprzedaży mieszkań czy też domów przygotowują niezbędną dokumentację potrzebną do złożenia wniosku kredytowego. Zazwyczaj są to następujące dokumenty: 
 
 •	odpis księgi wieczystej nieruchomości,
 
@@ -121,20 +119,15 @@ Jeżeli już się Państwo zdecydujecie na zakup nieruchomości z rynku pierwotn
 
 •	ewentualnie decyzje podziałowe działek.
 
-
-
-2.	Umowa w formie aktu notarialnego jest nieodzowną pozycją podczas zakupu nieruchomości z rynku pierwotnego oraz zawieraniu umowy deweloperskiej. Wiąże się to stricte z dodatkowym kosztem. Jest on natomiast pokrywany po równo przez dewelopera i kupujących. Akt notarialny ma na celu ochronę kupujących w razie, gdyby inwestycja deweloperska nie doszła do skutku. Natomiast w przypadku transakcji z rynku wtórnego, czy już zakończonych inwestycji deweloperskich, wystarczające jest podpisanie umowy przedwstępnej ze sprzedającym, za którą nie trzeba płacić. 
-
-3.	Brak podatku. Podczas zakupu nieruchomości z rynku pierwotnego nie musimy opłacać podatku od czynności cywilnoprawnych w wysokości 2%. Jest to przewaga nad rynkiem wtórnym, gdyż taka opłata jest obowiązkowa. 
-
-4.	Wypłata kredytu w transzach. Podczas zakupu mieszkania będącego w trakcie budowy, wypłata kredytu będzie realizowana w transzach zgodnie z harmonogramem prac. Za każdym razem, aby bank mógł wypłacić kolejną transzę musi mieć pewność, że dany etap prac został  wykonany, czyli zazwyczaj przeprowadza inspekcję. Niestety każda taka inspekcja może wiązać się z dodatkowymi kosztami, ponieważ zazwyczaj są to kwoty od kilkudziesięciu do nawet kilkuset złotych.  
-
-5.	Spłata samych odsetek, a nie kapitału. Kredytowanie nieruchomość z rynku pierwotnego podczas budowy wiąże się z  tym, że do momentu wypłaty ostatniej transzy kredytu, kredytobiorca płaci jedynie odsetki, które naliczane są od wypłacanych kwot kredytu zgodnie z transzami. Dopiero po wypłacaniu całej kwoty, kredytobiorca będzie spłacał całą ratę odsetkowo-kapitałową. 
+2. Umowa w formie aktu notarialnego jest nieodzowną pozycją podczas zakupu nieruchomości z rynku pierwotnego oraz zawieraniu umowy deweloperskiej. Wiąże się to stricte z dodatkowym kosztem. Jest on natomiast pokrywany po równo przez dewelopera i kupujących. Akt notarialny ma na celu ochronę kupujących w razie, gdyby inwestycja deweloperska nie doszła do skutku. Natomiast w przypadku transakcji z rynku wtórnego, czy już zakończonych inwestycji deweloperskich, wystarczające jest podpisanie umowy przedwstępnej ze sprzedającym, za którą nie trzeba płacić. 
+3. Brak podatku. Podczas zakupu nieruchomości z rynku pierwotnego nie musimy opłacać podatku od czynności cywilnoprawnych w wysokości 2%. Jest to przewaga nad rynkiem wtórnym, gdyż taka opłata jest obowiązkowa. 
+4. Wypłata kredytu w transzach. Podczas zakupu mieszkania będącego w trakcie budowy, wypłata kredytu będzie realizowana w transzach zgodnie z harmonogramem prac. Za każdym razem, aby bank mógł wypłacić kolejną transzę musi mieć pewność, że dany etap prac został  wykonany, czyli zazwyczaj przeprowadza inspekcję. Niestety każda taka inspekcja może wiązać się z dodatkowymi kosztami, ponieważ zazwyczaj są to kwoty od kilkudziesięciu do nawet kilkuset złotych.  
+5. Spłata samych odsetek, a nie kapitału. Kredytowanie nieruchomość z rynku pierwotnego podczas budowy wiąże się z  tym, że do momentu wypłaty ostatniej transzy kredytu, kredytobiorca płaci jedynie odsetki, które naliczane są od wypłacanych kwot kredytu zgodnie z transzami. Dopiero po wypłacaniu całej kwoty, kredytobiorca będzie spłacał całą ratę odsetkowo-kapitałową. 
 
 Plusem takiego rozwiązania jest to, że zazwyczaj początkowe raty są stosunkowe niskie, natomiast minusem jest fakt, że powoduje to wzrost całkowity kosztu kredytu.
 
-6.	Ubezpieczenie pomostowe. Ostatnią rzeczą jest dłuższy okres trwania ubezpieczenia pomostowego. Wiążę się to z tym, że do momentu prawomocnego wpisania się banku na hipotece do ksiąg wieczystych kredytobiorca płaci większą ratę kredytu. Może być to nawet o 10% czy 15% różnicy w porównaniu do ostatecznej raty jaką będzie trzeba nam płacić po wypłacie wszystkich transz. Jest to natomiast obowiązkowe ubezpieczenie, ponieważ pozwala zabezpieczyć kredyt podczas realizacji inwestycji. W przypadku nabycia nieruchomości z rynku pierwotnego takie ubezpieczenie może dość długo trwać. Zasadniczo jest to uzależnione od procesu inwestycyjnego, czyli czasu budowy nieruchomości. Jeżeli chcemy zakupić nieruchomość, która dopiero zaczyna się budować to takie ubezpieczenie pomostowe może funkcjonować nawet rok czy dwa lata. 
+6. Ubezpieczenie pomostowe. Ostatnią rzeczą jest dłuższy okres trwania ubezpieczenia pomostowego. Wiążę się to z tym, że do momentu prawomocnego wpisania się banku na hipotece do ksiąg wieczystych kredytobiorca płaci większą ratę kredytu. Może być to nawet o 10% czy 15% różnicy w porównaniu do ostatecznej raty jaką będzie trzeba nam płacić po wypłacie wszystkich transz. Jest to natomiast obowiązkowe ubezpieczenie, ponieważ pozwala zabezpieczyć kredyt podczas realizacji inwestycji. W przypadku nabycia nieruchomości z rynku pierwotnego takie ubezpieczenie może dość długo trwać. Zasadniczo jest to uzależnione od procesu inwestycyjnego, czyli czasu budowy nieruchomości. Jeżeli chcemy zakupić nieruchomość, która dopiero zaczyna się budować to takie ubezpieczenie pomostowe może funkcjonować nawet rok czy dwa lata. 
 
 ## Podsumowanie
 
-To czy warto czy nie warto zaczekać na nową wymarzoną nieruchomość zależy tylko i wyłącznie od indywidualnego podejścia klientów. Powyższe informacje mają na celu prybliżenie procesu zakupu nieruchomości z rynku pierwotnego, tak aby zobrazować przyszłym kredytobiorcą z czym mogą się zmierzyć podczas nabywania własnie takiej nieruchomości.
+To czy warto zaczekać na nową wymarzoną nieruchomość zależy tylko i wyłącznie od indywidualnego podejścia klientów. Powyższe informacje mają na celu przybliżenie procesu zakupu nieruchomości z rynku pierwotnego, tak aby zobrazować przyszłym kredytobiorcą z czym mogą się zmierzyć podczas nabywania właśnie takiej nieruchomości.
