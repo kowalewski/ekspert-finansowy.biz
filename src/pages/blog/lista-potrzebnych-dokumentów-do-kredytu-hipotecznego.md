@@ -22,13 +22,15 @@ W dalszej części artykułu przedstawiam standardowe dokumenty, które wymagane
 
 •	Pomoc w przygotowaniu wniosku.
 
+![](/img/lista-dokumentów.png)
+
 # Dokumenty osobiste potrzebne do procesowania wniosku
 
 1. Dokumenty osobiste – są to między innymi: dowód osobisty, prawo jazdy, paszport. Dokumenty muszą być skserowane lub zeskanowane w całości. Ważne, aby dokumenty nie posiadały jakiś braków np. uciętych rogów, bądź słabej jakości skanu. 
 2. Akt rozwodowy – dokument wymagany w przypadku, gdy kredytobiorca jest rozwodnikiem. Dokument musi być prawomocny.
 3. Rozdzielność majątkowa – dokument wymagany, gdy kredytobiorcami/kredytobiorcą są osoby/ jest osoba będąca w związku małżeńskim, ale nie na zasadach wspólnoty majątkowej.
 4. Wyrok alimentacyjny – dokument potwierdzający wysokość alimentów. Dokument musi być prawomocny.
-5.  Umowa przedwstępna – dokument określający zasady nabycia nieruchomości.
+5. Umowa przedwstępna – dokument określający zasady nabycia nieruchomości.
 
 # Lista dokumentów  wymaganych w zależności od rodzaju nieruchomości:
 
