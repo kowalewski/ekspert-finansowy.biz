@@ -3,7 +3,7 @@ import { string, arrayOf, number, shape, node } from 'prop-types';
 import loadScript from '../../helpers/loadScript/loadScript';
 import markerIcon from '../../img/marker.png';
 
-const MAP_KEY = 'AIzaSyBTtF0XieZJLhnn456wdszhNlg0VHShLLU';
+const MAP_KEY = 'AIzaSyDfWF1sQyycCMnPP8EHxryA1mSIDjaZhp8';
 
 export default class GoogleMap extends Component {
     static propTypes = {
