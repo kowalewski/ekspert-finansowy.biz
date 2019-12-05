@@ -3,22 +3,25 @@ templateKey: blog-post
 title: Kredyt na budowę domu- czyli jak z głową podejść do inwestycji
 date: 2019-02-01T11:41:34.299Z
 description: >+
-    Obecne realia na rynku nieruchomości (ceny najmu mieszkań i niskie koszty
-    kredytów hipotecznych) powodują, iż coraz więcej osób zamiast wynajmować
-    mieszkanie decyduje się na własne "M" kupując mieszkanie lub budując dom.
-    Większość z nich, aby sfinansować swoje marzenia potrzebuje kredytu
-    hipotecznego. Zakup nieruchomości na kredyt opisywałem już wcześniej, tym
-    razem zajmę się budową domu i uzyskaniem kredytu na budowę.
+  Obecne realia na rynku nieruchomości (ceny najmu mieszkań i niskie koszty
+  kredytów hipotecznych) powodują, iż coraz więcej osób zamiast wynajmować
+  mieszkanie decyduje się na własne "M" kupując mieszkanie lub budując dom.
+  Większość z nich, aby sfinansować swoje marzenia potrzebuje kredytu
+  hipotecznego. Zakup nieruchomości na kredyt opisywałem już wcześniej, tym
+  razem zajmę się budową domu i uzyskaniem kredytu na budowę.
 
-    W kredytowaniu budowy występują parametry, które trzeba dobrze zrozumieć, by
-    prawidłowo poukładać planowaną inwestycję . W tym wpisie „Kredyt na budowę
-    domu- czyli jak z głową podejść do inwestycji ” chciałbym przybliżyć jak
-    najwięcej przydatnych informacji, które mogą być ważne lub po prostu
-    interesujące. Dzisiaj poznasz:
+  W kredytowaniu budowy występują parametry, które trzeba dobrze zrozumieć, by
+  prawidłowo poukładać planowaną inwestycję . W tym wpisie „Kredyt na budowę
+  domu- czyli jak z głową podejść do inwestycji ” chciałbym przybliżyć jak
+  najwięcej przydatnych informacji, które mogą być ważne lub po prostu
+  interesujące. Dzisiaj poznasz:
 
 tags:
-    - Kredyt na budowę domu
+  - Kredyt na budowę domu
 ---
+![](/img/1.png)
+
+
 
 1. Kredyt na budowę domu, a wkład własny.
 2. Minimalne wymagania banków dotyczące budowy 1 m2
@@ -61,7 +64,7 @@ Podczas inwestycji budowlanej bank jest zobligowany do wypłacania kredytu w tra
 
 Trzeba pamiętać, że w czasie karencji i wypłacaniu transz, płacimy jedynie ratę odsetkową od wypłaconych pieniędzy.
 
-Banki podczas wyliczania raty odsetkowej stosują następujący wzór: ((WIBOR 3, bądź 6 miesięczny + marża + ubezpieczenie pomostowe %)\*wypłacona część kredytu)/12
+Banki podczas wyliczania raty odsetkowej stosują następujący wzór: ((WIBOR 3, bądź 6 miesięczny + marża + ubezpieczenie pomostowe %)*wypłacona część kredytu)/12
 
 ## Finansowanie naprzemienne- kiedy może być zastosowane?
 
