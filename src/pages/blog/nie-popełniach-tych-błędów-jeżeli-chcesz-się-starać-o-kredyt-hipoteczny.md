@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'NIE POPEŁNIACH TYCH BŁĘDÓW, JEŻELI CHCESZ SIĘ STARAĆ O KREDYT HIPOTECZNY!'
+title: 'NIE POPEŁNIACH TYCH BŁĘDÓW, JEŻELI CHCESZ STARAĆ SIĘ O KREDYT HIPOTECZNY!'
 date: 2019-12-05T09:29:55.336Z
 description: "\U0001F4CCZastanawiasz się nad \U0001F3E1 KREDYTEM HIPOTECZNYM❓Wszędzie znajdujesz informacje, co zrobić przed podpisaniem takiego wniosku. A może warto zastanowić się CZEGO NIE ROBIĆ❓"
 tags:
