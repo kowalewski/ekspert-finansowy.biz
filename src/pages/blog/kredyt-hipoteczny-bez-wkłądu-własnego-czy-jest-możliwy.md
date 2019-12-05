@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Kredyt hipoteczny bez wkłądu własnego czy jest możliwy?
+title: Kredyt hipoteczny bez wkładu własnego czy jest możliwy?
 date: 2019-12-05T10:52:52.117Z
 description: "\U0001F4CCCzęsto spotykam się z pytaniem ile trzeba mieć wkładu własnego przy zakupie mieszkania czy budowie domu.\nI czy w ogóle można bez❓"
 tags:
