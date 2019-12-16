@@ -7,40 +7,40 @@
 
 [[redirects]]
   from = "https://ekspert-finansowy.netlify.com"
-  to = "https://ekspert-finansowy.biz"
+  to = "https://kredyty-augustow.pl"
   force = true
 
 [[redirects]]
   from = "https://ekspert-finansowy.netlify.com/*"
-  to = "https://ekspert-finansowy.biz/:splat"
+  to = "https://https://kredyty-augustow.pl/:splat"
   force = true
 
 [[redirects]]
-  from = "https://kredyty-augustow.pl"
-  to = "https://ekspert-finansowy.biz"
+  from = "https://ekspert-finansowy.biz"
+  to = "https://kredyty-augustow.pl"
   force = true
 
 [[redirects]]
-  from = "https://kredyty-augustow.pl/*"
-  to = "https://ekspert-finansowy.biz/:splat"
+  from = "https://ekspert-finansowy.biz/:splat"
+  to = "https://kredyty-augustow.pl/*"
   force = true
 
 [[redirects]]
-  from = "http://kredyty-augustow.pl/*"
-  to = "https://ekspert-finansowy.biz/:splat"
+  from = "http://ekspert-finansowy.biz/:splat"
+  to = "https://kredyty-augustow.pl/*"
   force = true
 
 [[redirects]]
-  from = "http://www.kredyty-augustow.pl/*"
-  to = "https://ekspert-finansowy.biz/:splat"
+  from = "http://ekspert-finansowy.biz/:splat"
+  to = "https://www.kredyty-augustow.pl/*"
   force = true
 
 [[redirects]]
-  from = "https://www.kredyty-augustow.pl/*"
-  to = "https://ekspert-finansowy.biz/:splat"
+  from = "https://ekspert-finansowy.biz/:splat"
+  to = "https://www.kredyty-augustow.pl/*"
   force = true
 
 [[redirects]]
   from = "https://www.kredyty-augustow.pl"
-  to = "https://ekspert-finansowy.biz"
+  to = "https://kredyty-augustow.pl"
   force = true
