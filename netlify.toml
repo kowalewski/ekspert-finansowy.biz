@@ -12,7 +12,7 @@
 
 [[redirects]]
   from = "https://ekspert-finansowy.netlify.com/*"
-  to = "https://https://kredyty-augustow.pl/:splat"
+  to = "https://kredyty-augustow.pl/:splat"
   force = true
 
 [[redirects]]
@@ -31,13 +31,13 @@
   force = true
 
 [[redirects]]
-  from = "http://ekspert-finansowy.biz/:splat"
-  to = "https://www.kredyty-augustow.pl/*"
+  from = "http://www.ekspert-finansowy.biz/:splat"
+  to = "https://kredyty-augustow.pl/*"
   force = true
 
 [[redirects]]
-  from = "https://ekspert-finansowy.biz/:splat"
-  to = "https://www.kredyty-augustow.pl/*"
+  from = "https://www.ekspert-finansowy.biz/:splat"
+  to = "https://kredyty-augustow.pl/*"
   force = true
 
 [[redirects]]
