@@ -61,6 +61,10 @@ const TemplateWrapper = ({ children }) => (
                         name="google-site-verification"
                         content="ERwpfXLy-xQOdU_FgEYLn6N_muXaFvBvfvWSDmi6zyA"
                     />
+                    <meta
+                        name="google-site-verification"
+                        content="D0hIkG2O1oS7weZKM2MjTtwYp_0u-52Ux_lZQ118OT0"
+                    />
                     <meta name="og:locale" content="pl_PL" />
                 </Helmet>
                 <div>{children}</div>
