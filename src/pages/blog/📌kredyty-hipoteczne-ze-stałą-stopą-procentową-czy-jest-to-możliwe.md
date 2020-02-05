@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "\U0001F4CCKredyty hipoteczne ze stałą stopą procentową- czy jest to możliwe?"
+title: Kredyty hipoteczne ze stałą stopą procentową- czy jest to możliwe?
 date: 2020-02-05T22:43:26.349Z
 description: "\U0001F4CDKredyty hipoteczne ze stałą stopą procentową aktualnie jest dostępny tylko w ofercie trzech banków."
 tags:
