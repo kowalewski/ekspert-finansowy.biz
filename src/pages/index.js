@@ -39,11 +39,6 @@ export default class IndexPage extends Component {
                     >
                         <Services services={servicesData} />
                     </Section>
-                    <div className="latest-posts">
-                        <Section modificator="regular-padding">
-                            <LatestPosts posts={posts} />
-                        </Section>
-                    </div>
                     <InView>
                         <GoogleMap id="google-maps" markers={markers}>
                             <div className="map__layer">
@@ -69,6 +64,11 @@ export default class IndexPage extends Component {
                     <Section title="Korzyści dla klienta">
                         <Benefits benefits={benefitsData} />
                     </Section>
+                    <div className="latest-posts">
+                        <Section modificator="regular-padding">
+                            <LatestPosts posts={posts} />
+                        </Section>
+                    </div>
                     <Footer />
                 </main>
             </Layout>
