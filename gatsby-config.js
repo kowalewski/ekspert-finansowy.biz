@@ -9,7 +9,7 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
 
 module.exports = {
     siteMetadata: {
-        title: 'Ekspert finansowy - Paweł Kowalewski',
+        title: 'Kredyty i ubezpieczenia - Paweł Kowalewski',
         description:
         'Profesjonalna pomoc w zakresie finansów i ubezpieczeń na terenie Augustowa.',
         siteUrl,

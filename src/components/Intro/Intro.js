@@ -40,7 +40,7 @@ export default class Intro extends Component {
                             Paweł <br /> Kowalewski
                         </h1>
                         <h2 className="intro__subtitle">
-                            Ekspert finansowy <br /> Augustów
+                            Kredyty i ubezpieczenia <br /> Augustów
                         </h2>
                         <p className="intro__ingress">
                             Każdego klienta traktuję indywidualnie. Skupiając

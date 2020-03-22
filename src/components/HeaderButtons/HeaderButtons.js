@@ -13,9 +13,9 @@ export default function HeaderButtons() {
                     className="header-buttons__icon"
                     target="_blank"
                     rel="noopener noreferrer"
-                    title="Ekspert finansowy - telefon"
+                    title="Kredyty i ubezpieczenia - telefon"
                 >
-                    <img src={phoneIcon} alt="Ekspert finansowy - telefon" />
+                    <img src={phoneIcon} alt="Kredyty i ubezpieczenia - telefon" />
                 </a>
             </div>
             <a
@@ -23,16 +23,16 @@ export default function HeaderButtons() {
                 className="header-buttons__icon"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Ekspert finansowy - profil facebook"
+                title="Kredyty i ubezpieczenia - profil facebook"
             >
-                <img src={fbIcon} alt="Ekspert finansowy - profil facebook" />
+                <img src={fbIcon} alt="Kredyty i ubezpieczenia - profil facebook" />
             </a>
             <a
                 href="mailto: pawel.kowalewski@opendirect.pl"
                 className="header-buttons__icon"
-                title="Ekspert finansowy - mail"
+                title="Kredyty i ubezpieczenia - mail"
             >
-                <img src={mailIcon} alt="Ekspert finansowy - mail" />
+                <img src={mailIcon} alt="Kredyty i ubezpieczenia - mail" />
             </a>
         </div>
     );

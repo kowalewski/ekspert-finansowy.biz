@@ -37,7 +37,7 @@ const TemplateWrapper = ({ children }) => (
                     />
                     <meta
                         itemprop="name"
-                        content="Ekspert Finansowy - Paweł Kowalewski"
+                        content="Kredyty i ubezpieczenia - Paweł Kowalewski"
                     />
                     <meta
                         itemprop="description"
