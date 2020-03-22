@@ -32,10 +32,11 @@ export default class Intro extends Component {
                     />
                     <div className={`intro__content ${contentClass}`}>
                         <h1 className="intro__title">
-                            Paweł <br /> Kowalewski
+                            Kredyty i ubezpieczenia
                         </h1>
                         <h2 className="intro__subtitle">
-                            Kredyty i ubezpieczenia <br /> Augustów
+                            Paweł Kowalewski <br/>
+                            Augustów
                         </h2>
                         <p className="intro__ingress">
                             Każdego klienta traktuję indywidualnie. Skupiając
