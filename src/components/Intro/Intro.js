@@ -31,11 +31,6 @@ export default class Intro extends Component {
                         backgroundImageUrl={bgImage}
                     />
                     <div className={`intro__content ${contentClass}`}>
-                        <img
-                            className="intro__logo"
-                            src={openFinanceLogo}
-                            alt="logo Open Finance"
-                        />
                         <h1 className="intro__title">
                             Paweł <br /> Kowalewski
                         </h1>
