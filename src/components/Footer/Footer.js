@@ -12,8 +12,9 @@ export default function Footer() {
                             <address className="footer__item">
                                 <strong>Adres:</strong>
                                 <br />
-                                ul. Rynek Zygmunta Augusta 11/1, <br />
-                                16-300 Augustów
+                                ul. Konarskiego 1,
+                                <br />
+                                16-500 Sejny
                             </address>
                             <p className="footer__item">
                                 <strong>Godziny otwarcia:</strong>
@@ -36,10 +37,10 @@ export default function Footer() {
                                 <strong>Email:</strong>
                                 <br />
                                 <a
-                                    href="mailto: pawel.kowalewski@opendirect.pl"
-                                    title="Adres e-mail: pawel.kowalewski@opendirect.pl"
+                                    href="mailto: kredyty.kowalewski@gmail.com"
+                                    title="Adres e-mail: kredyty.kowalewski@gmail.com"
                                 >
-                                    pawel.kowalewski@opendirect.pl
+                                    kredyty.kowalewski@gmail.com
                                 </a>
                             </p>
                             <p className="footer__item">

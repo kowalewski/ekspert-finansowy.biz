@@ -15,7 +15,10 @@ export default function HeaderButtons() {
                     rel="noopener noreferrer"
                     title="Kredyty i ubezpieczenia - telefon"
                 >
-                    <img src={phoneIcon} alt="Kredyty i ubezpieczenia - telefon" />
+                    <img
+                        src={phoneIcon}
+                        alt="Kredyty i ubezpieczenia - telefon"
+                    />
                 </a>
             </div>
             <a
@@ -25,10 +28,13 @@ export default function HeaderButtons() {
                 rel="noopener noreferrer"
                 title="Kredyty i ubezpieczenia - profil facebook"
             >
-                <img src={fbIcon} alt="Kredyty i ubezpieczenia - profil facebook" />
+                <img
+                    src={fbIcon}
+                    alt="Kredyty i ubezpieczenia - profil facebook"
+                />
             </a>
             <a
-                href="mailto: pawel.kowalewski@opendirect.pl"
+                href="mailto: kredyty.kowalewski@gmail.com"
                 className="header-buttons__icon"
                 title="Kredyty i ubezpieczenia - mail"
             >
