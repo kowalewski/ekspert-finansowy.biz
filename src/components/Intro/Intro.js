@@ -34,10 +34,7 @@ export default class Intro extends Component {
                         <h1 className="intro__title">
                             Kredyty i ubezpieczenia
                         </h1>
-                        <h2 className="intro__subtitle">
-                            Paweł Kowalewski <br/>
-                            Augustów
-                        </h2>
+                        <h2 className="intro__subtitle">Paweł Kowalewski</h2>
                         <p className="intro__ingress">
                             Każdego klienta traktuję indywidualnie. Skupiając
                             się na Państwa potrzebach, gwarantuję pełne
