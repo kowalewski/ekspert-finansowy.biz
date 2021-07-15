@@ -1,6 +1,7 @@
 import React from 'react';
 import Row from '../Row/Row';
 import Section from '../Section/Section';
+import constants from '@constants';
 
 export default function Footer() {
     return (
@@ -27,10 +28,10 @@ export default function Footer() {
                                 <strong>Telefon:</strong>
                                 <br />
                                 <a
-                                    href="tel: +48 785 808 378"
-                                    title="Numer telefonu: +48 785 808 378"
+                                    href={`tel: ${constants.PHONE}`}
+                                    title={`Numer telefonu: ${constants.PHONE}`}
                                 >
-                                    +48 785 808 378
+                                    {constants.PHONE}
                                 </a>
                             </p>
                             <p className="footer__item">

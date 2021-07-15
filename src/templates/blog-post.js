@@ -9,6 +9,7 @@ import Footer from '../components/Footer/Footer';
 import Section from '../components/Section/Section';
 import LatestPosts from '../components/LatestPosts/LatestPosts';
 import Content, { HTMLContent } from '../components/PostContent/PostContent';
+import constants from '@constants';
 
 export const BlogPostTemplate = ({
     content,
@@ -33,7 +34,7 @@ export const BlogPostTemplate = ({
                         {date}, <br />
                         <strong>Paweł Kowalewski</strong>, Ekspert Finansowy
                         Open Finance <br />
-                        tel: 785 808 378 <br />
+                        tel: {constants.PHONE} <br />
                         <a
                             href="https://www.facebook.com/finansekredytyubezpieczenia"
                             rel="noopener noreferrer"

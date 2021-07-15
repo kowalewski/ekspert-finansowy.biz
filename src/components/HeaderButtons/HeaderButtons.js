@@ -2,14 +2,15 @@ import React from 'react';
 import phoneIcon from '../../img/icon-phone.svg';
 import fbIcon from '../../img/icon-fb.svg';
 import mailIcon from '../../img/icon-mail.svg';
+import constants from '@constants';
 
 export default function HeaderButtons() {
     return (
         <div className="header-buttons">
             <div className="header-buttons__phone-container">
-                <span>+48 785 808 378</span>
+                <span>{constants.PHONE}</span>
                 <a
-                    href="tel: +48 785 808 378"
+                    href={`tel: ${constants.PHONE}`}
                     className="header-buttons__icon"
                     target="_blank"
                     rel="noopener noreferrer"

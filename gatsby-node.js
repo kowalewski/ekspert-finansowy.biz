@@ -87,3 +87,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         });
     }
 };
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+    actions.setWebpackConfig({
+        resolve: {
+            alias: {
+                '@constants': path.resolve(__dirname, 'src/constants'),
+            },
+        },
+    });
+};

@@ -4,13 +4,12 @@ title: KREDYT HIPOTECZNY A UMOWA O PRACĘ
 date: 2019-12-05T10:27:22.914Z
 description: "\U0001F4CC Umowa o pracę ⤵️\nBanki do liczenia zdolności kredytowej akceptują zarówno umowę o pracę na czas nieokreślony jak również na czas określony oraz umowę na zastępstwo. "
 tags:
-  - UMOWA O PRACĘ KREDYT HIPOTECZNY
+    - UMOWA O PRACĘ KREDYT HIPOTECZNY
 ---
+
 ![](/img/72442378_2400497746934986_4082274193310220288_n.png)
 
 To jak podejdą do policzenia zdolności zależy od polityki kredytowej danego banku 🏦🏦🏦 👇
-
-
 
 📍 Umowa o pracę na CZAS NIEOKREŚLONY jest zazwyczaj akceptowana gdy trwa min. 3 miesiące u obecnego pracodawcy. Niektóre Banki zaakceptują takie źródło dochodu już po pierwszym miesiącu zatrudnienia i otrzymaniu przez klienta wynagrodzenia.
 
@@ -34,11 +33,7 @@ Jeżeli chodzi o to źródło dochodu to podejście Banków jest zróżnicowane.
 
 7️⃣ W jednym z Banków Umowa na czas określony zawarta na okres co najmniej 12 miesięcy - traktowane jest jak umowy na czas nieokreślony❗️❗️❗️
 
-
-
 📍 Dodatkowo są Banki w Polsce, które zaakceptują UMOWA NA ZASTĘPSTWO do liczenia zdolności kredytowej.
-
-
 
 📍Reasumując:
 
@@ -46,11 +41,7 @@ Banki mają różną politykę kredytową, każdy 🏦Bank inaczej podchodzi do 
 
 Umowa na czas określony a staranie się o kredyt hipoteczny jest jak najbardziej możliwy.
 
-
-
 ℹ️ Jeżeli masz jakieś pytania, bądź chciałbyś skorzystać z moich bezpłatnych usług zachęcam do kontaktu.
-
-
 
 Paweł Kowalewski
 
@@ -58,4 +49,4 @@ Ekspert Finansowy Open Finance Augustów
 
 🌐 https://kredyty-augustow.pl/
 
-📞 785 808 378
+📞 783 737 050

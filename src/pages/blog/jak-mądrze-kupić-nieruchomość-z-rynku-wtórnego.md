@@ -4,29 +4,18 @@ title: Jak mądrze kupić nieruchomość z rynku wtórnego
 date: 2019-12-19T21:43:26.267Z
 description: "\U0001F4CC Nie możesz pozwolić sobie na zakup nieruchomości z RYNKU PIERWOTNEGO❓ Bądź okres wyczekiwania na wymarzone mieszkanie nie jest dla Ciebie❓\n\nDlatego też decydujesz się na zakup nieruchomości z RYNKU WTÓRNEGO\U0001F4B0"
 tags:
-  - Rynek wtórny
+    - Rynek wtórny
 ---
+
 ![](/img/kopia-kopia-kopia-kopia-kopia-kopia-every-flower-is-a-soul-blossomingin-nature.-—-kopia-4-.png)
-
- 
-
-
 
 📍W dzisiejszym poście opowiem jak bezpiecznie kupić mieszkanie właśnie na RYNKU WTÓRNYM.
 
-
-
 👉Zanim zaczniesz szukać - Weź pod uwagę poniższe 8️ kroków:
-
-
 
 1️. Powinniśmy zacząć od sprawdzenia swojej zdolności kredytowej. Jednak moi Klienci zazwyczaj zaczynają od 2 kroku, tzn. SZUKAJĄ wymarzonego mieszkania i kiedy już coś upolują, sprawdzają swoje możliwości finansowe. To nic złego ❗️Ważne aby nie pominąć kroku nr 2.
 
-
-
 2️. Po sprawdzeniu ZDOLNOŚCI - szukamy tego naszego wymarzonego i idealnego mieszkania
-
-
 
 3️. Kiedy mamy już coś na oku - w KSIĘDZE WIECZYSTEJ w dziale nr III (KW) koniecznie sprawdzamy czy są wpisane roszczenia lub obciążenia.
 
@@ -44,8 +33,6 @@ Nasze mieszkanie polecam sprawdzić również w spółdzielni. Po co❓ Po to, a
 
 8.  Na koniec SZCZĘŚLIWI już idziemy do banku z naszym aktem notarialnym, a bank przelewa umówioną kwotę na rachunek sprzedającego.
 
-
-
 ℹ️ Jeżeli masz jakieś pytania, bądź chciałbyś skorzystać z moich bezpłatnych usług zachęcam do kontaktu.
 
 Paweł Kowalewski
@@ -54,4 +41,4 @@ Ekspert Finansowy Open Finance Augustów
 
 🌐 https://kredyty-augustow.pl/
 
-📞 785 808 378
+📞 783 737 050
