@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MovingBackground from '../MovingBackground/MovingBackground';
-import openFinanceLogo from '../../img/open-finance-logo.png';
 import bgImage from '../../img/bg-large.jpg';
 import ScrollToButton from '../ScrollToButton/ScrollToButton';
 
@@ -43,7 +42,10 @@ export default class Intro extends Component {
                         </p>
                     </div>
                 </div>
-                <ScrollToButton selector=".js-content" />
+                <ScrollToButton
+                    selector=".js-content"
+                    label="Przewiń do treści"
+                />
             </div>
         );
     }
