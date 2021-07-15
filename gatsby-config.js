@@ -2,7 +2,7 @@ const {
     NODE_ENV,
     URL: NETLIFY_SITE_URL = 'https://ekspert-finansowy.biz',
     DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
-    CONTEXT: NETLIFY_ENV = NODE_ENV
+    CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env;
 const isNetlifyProduction = NETLIFY_ENV === 'production';
 const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
@@ -11,7 +11,7 @@ module.exports = {
     siteMetadata: {
         title: 'Kredyty i ubezpieczenia - Paweł Kowalewski',
         description:
-        'Profesjonalna pomoc w zakresie finansów i ubezpieczeń na terenie Augustowa.',
+            'Profesjonalna pomoc w zakresie finansów i ubezpieczeń na terenie Augustowa.',
         siteUrl,
     },
     plugins: [
@@ -72,15 +72,15 @@ module.exports = {
                     'branch-deploy': {
                         policy: [{ userAgent: '*', disallow: ['/'] }],
                         sitemap: null,
-                        host: null
+                        host: null,
                     },
                     'deploy-preview': {
                         policy: [{ userAgent: '*', disallow: ['/'] }],
                         sitemap: null,
-                        host: null
-                    }
-                }
-            }
+                        host: null,
+                    },
+                },
+            },
         },
         {
             // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -140,12 +140,12 @@ module.exports = {
                 modulePath: `${__dirname}/src/cms/cms.js`,
             },
         },
-        {
-            resolve: 'gatsby-plugin-purgecss',
-            options: {
-                printRejected: true,
-            },
-        },
+        // {
+        //     resolve: 'gatsby-plugin-purgecss',
+        //     options: {
+        //         printRejected: true,
+        //     },
+        // },
         'gatsby-plugin-netlify', // make sure to keep it last in the array
     ],
 };
